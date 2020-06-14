@@ -27,7 +27,7 @@ module.exports = {
   ],
 
   server: {
-    port: 8080, // default: 3000
+    port: process.env.PORT || 8080, // default: 3000
   },
 
   build: {
